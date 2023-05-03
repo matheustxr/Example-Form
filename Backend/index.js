@@ -4,6 +4,8 @@ const bodyParser = require('body-parser');
 const multer = require('multer');
 const nodemailer = require('nodemailer');
 
+const port =process.env.PORT || 3001
+
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
