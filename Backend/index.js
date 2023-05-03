@@ -51,7 +51,7 @@ app.post('/send', upload.single('attachment'), function(req, res) {
     } else {
       console.log('Email enviado: ' + info.response);
     }
-     res.redirect('http://127.0.0.1:5501/Zoomies/fornecedores.html');
+     res.redirect('http://127.0.0.1:5501/Zoomies/index.html');
   });
 });
 
