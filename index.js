@@ -9,7 +9,6 @@ app.use(bodyParser.json());
 
 const upload = multer({ dest: 'uploads/' });
 
-const port =process.env.PORT || 3001
 
 app.get('/', function(req, res) {
   res.sendFile(__dirname + '/index.html');
