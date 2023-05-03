@@ -51,7 +51,7 @@ app.post('/send', upload.single('attachment'), function(req, res) {
     } else {
       console.log('Email enviado: ' + info.response);
     }
-     res.redirect('http://127.0.0.1:5501/Zoomies/index.html');
+     res.redirect('https://6452b3f58d7817156f44a7c9--gleaming-palmier-3a61ff.netlify.app/');
   });
 });
 
